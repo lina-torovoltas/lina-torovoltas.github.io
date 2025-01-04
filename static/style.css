@@ -8,7 +8,8 @@
 :root {
     --color-highlight: #d46700;
     --color-background: #0f0f0f;
-}
+    --color-text: #e0e0e0;
+  }
 
 div {
     padding-left: 1em;
@@ -17,6 +18,7 @@ div {
     padding-bottom: 1px;
     background: #181818;
     border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -30,19 +32,11 @@ body {
 
 img {
     border-radius: 10px;
-
+    float: left;
 }
 
-p {
-    color: #cccccc
-}
-
-h3 {
-    color: #cccccc
-}
-
-h1 {
-    color: #cccccc
+p, li, h1, h3 {
+    color: var(--color-text);
 }
 
 .ultra_padding {
@@ -57,24 +51,20 @@ img {
     float: left;
 }
 
-li {
-    color: #cccccc
-}
-
 footer {
     border-top: 3px solid #333;
-    padding-top: 1em;
+    padding-top: 1.5em;
     text-align: center;
     margin: 1em 0;
-    color: #cccccc;
+    color: var(--color-text);
     vertical-align: middle;
 }
 
 a {
     color: var(--color-highlight);
     text-decoration: none;
-    background-color: #0000;
-    transition: all 0.15s;
+    background-color: transparent;
+    transition: background-color 0.25s ease, color 0.25s ease;
     border-radius: 3px;
     font-family: 'Julia Mono', monospace;
 }
