@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Julia Mono';
+    font-weight: normal;
+    font-style: normal;
+    src: url("JuliaMono-Regular.ttf");
+  }
+
+:root {
+    --color-highlight: #d46700;
+    --color-background: #0f0f0f;
+}
+
+div {
+    padding-left: 1em;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1px;
+    background: #181818;
+    border-radius: 10px;
+}
+
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Julia Mono', monospace;
+    background: radial-gradient( rgb(231, 66, 0), rgb(0, 0, 0)) fixed;
+    font-size: 1.1rem;
+}
+
+img {
+    border-radius: 10px;
+
+}
+
+p {
+    color: #cccccc
+}
+
+h3 {
+    color: #cccccc
+}
+
+h1 {
+    color: #cccccc
+}
+
+.ultra_padding {
+    padding-left: 280px;
+}
+
+.lina {
+    color: #ff5e00;
+}
+
+img {
+    float: left;
+}
+
+li {
+    color: #cccccc
+}
+
+footer {
+    border-top: 3px solid #333;
+    padding-top: 1em;
+    text-align: center;
+    margin: 1em 0;
+    color: #cccccc;
+    vertical-align: middle;
+}
+
+a {
+    color: var(--color-highlight);
+    text-decoration: none;
+    background-color: #0000;
+    transition: all 0.15s;
+    border-radius: 3px;
+    font-family: 'Julia Mono', monospace;
+}
+
+a:hover {
+    background-color: var(--color-highlight);
+    color: var(--color-background);
+}
+
+.centered-paragraph {
+    text-align: center;
+}
