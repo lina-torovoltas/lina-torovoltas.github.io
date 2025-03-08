@@ -35,8 +35,9 @@ img {
     float: left;
 }
 
-p, li, h1, h3 {
+p, li, h1, h3, h4 {
     color: var(--color-text);
+    line-height: 25px;
 }
 
 .ultra_padding {
