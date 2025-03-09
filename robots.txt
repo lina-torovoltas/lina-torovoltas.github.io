@@ -10,8 +10,12 @@
 
 User-agent: *
 Disallow: /secret.html
-Allow: /$
-Allow: /contacts.html$
-Allow: /projects.html$
-Allow: /donations.html$
-Allow: /licensing.html$
+Allow: /
+Allow: /index.html
+Allow: /contacts.html
+Allow: /projects.html
+Allow: /donations.html
+Allow: /licensing.html
+Host: lina-torovoltas.github.io
+
+# QwQ
