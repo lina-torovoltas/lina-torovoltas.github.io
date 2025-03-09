@@ -1,0 +1,16 @@
+# You really should not open this secret. 
+# You are young, playful, everything's easy for you. This is an another thing. 
+# It's not Snowden and not even secret services archives. 
+# Better not to get into that. 
+# Seriously, any of you would deeply regret. 
+# Close the file and forget what was written here. 
+# I fully understand that this file incites additional interest, but I far the curious - stop. 
+# The rest will just not see it.
+
+User-agent: *
+Disallow: /secret.html
+Allow: /$
+Allow: /contacts.html$
+Allow: /projects.html$
+Allow: /donations.html$
+Allow: /licensing.html$
