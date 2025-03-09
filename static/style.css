@@ -86,7 +86,7 @@ nav {
     border-bottom: 2px solid var(--color-highlight);
     background-color: var(--color-background);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     display: flex;
 }
 
