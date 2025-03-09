@@ -7,15 +7,15 @@
 
 :root {
     --color-highlight: #d46700;
-    --color-background: #0f0f0f;
+    --color-background: #181818;
     --color-text: #e0e0e0;
   }
 
 div {
     padding-left: 1em;
     margin-top: 2em;
-    padding-top: 1em;
-    padding-bottom: 1px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5px;
     background: #181818;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -23,8 +23,8 @@ div {
 
 
 body {
-    max-width: 800px;
     margin: 0 auto;
+    max-width: 800px;
     font-family: 'Julia Mono', monospace;
     background: radial-gradient( rgb(231, 66, 0), rgb(0, 0, 0)) fixed;
     font-size: 1.1rem;
@@ -32,7 +32,6 @@ body {
 
 img {
     border-radius: 10px;
-    float: left;
 }
 
 p, li, h1, h3, h4 {
@@ -46,10 +45,6 @@ p, li, h1, h3, h4 {
 
 .lina {
     color: #ff5e00;
-}
-
-img {
-    float: left;
 }
 
 footer {
@@ -76,5 +71,39 @@ a:hover {
 }
 
 .centered-paragraph {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0.5em 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-background);
+    border-radius: 10px;
+    display: flex;
+}
+
+nav a {
+    align-self: center;
+    flex-grow: 0.2;
+    margin: 0 auto;
+}
+
+.svg {
+    height: 400px;
+    background: #111111
+}
+
+.left_float {
+    float: left;
+}
+
+.under_text {
+    font-size: 10px;
     text-align: center;
 }
