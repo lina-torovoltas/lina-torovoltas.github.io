@@ -10,6 +10,7 @@
 
 User-agent: *
 Disallow: /secret.html
+Disallow: /google933a80005a9e9d4c.html
 Allow: /
 Allow: /index.html
 Allow: /contacts.html
