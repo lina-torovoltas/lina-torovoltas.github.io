@@ -10,6 +10,7 @@
 
 User-agent: *
 Disallow: /secret.html
+Disallow: /404.html
 Disallow: /google933a80005a9e9d4c.html
 Allow: /
 Allow: /index.html
@@ -18,5 +19,7 @@ Allow: /projects.html
 Allow: /donations.html
 Allow: /licensing.html
 Host: lina-torovoltas.github.io
+
+Sitemap: https://lina-torovoltas.github.io/sitemap.xml
 
 # QwQ
