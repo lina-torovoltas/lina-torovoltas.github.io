@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /secret.html
+Disallow: /404.html
+Allow: /
+Allow: /index.html
+Allow: /contacts.html
+Allow: /projects.html
+Allow: /donations.html
+Allow: /licensing.html
+Host: lina-torovoltas.github.io
+
+Sitemap: https://lina-torovoltas.github.io/sitemap.xml
+
+# QwQ
