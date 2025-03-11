@@ -6,7 +6,7 @@
   }
 
 :root {
-    --color-highlight: #d46700;
+    --color-highlight: #ff6a00;
     --color-background: #181818;
     --color-text: #e0e0e0;
   }
@@ -18,7 +18,7 @@ div {
     padding-bottom: 0.5px;
     background: #181818;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px #000000;
 }
 
 
@@ -26,7 +26,7 @@ body {
     margin: 0 auto;
     max-width: 800px;
     font-family: 'Julia Mono', monospace;
-    background: radial-gradient( rgb(231, 66, 0), rgb(0, 0, 0)) fixed;
+    background: radial-gradient(#E74200, #000000) fixed;
     font-size: 1.1rem;
 }
 
@@ -44,7 +44,7 @@ p, li, h1, h3, h4, h2 {
 }
 
 .lina {
-    color: #ff5e00;
+    color: #ff4f00;
 }
 
 footer {
