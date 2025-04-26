@@ -10,5 +10,3 @@ Allow: /licensing.html
 Host: lina-torovoltas.github.io
 
 Sitemap: https://lina-torovoltas.github.io/sitemap.xml
-
-# QwQ

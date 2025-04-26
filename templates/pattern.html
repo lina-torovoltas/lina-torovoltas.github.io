@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Lina Torovoltas</title>
+        <link rel="stylesheet" href="static/style.css">
+        <link rel="shortcut icon" href="static/logo.png" />
+    </head>
+    
+    <body>
+
+        <nav>
+                <a href="/" title="Home page.">home</a>
+                <a href="/contacts" title="Contact me.">contacts</a>
+                <a href="/projects" title="Here are all my projects.">projects</a>
+                <a href="/donations" title="Donate cryptocurrency to help me.">donations</a>
+        </nav>
+
+        
+        <main>
+            {{ body|safe }}
+        </main>
+
+
+        <div>
+            <footer>
+            Lina Torovoltas (c) | <a href="/licensing" class="highlight">licensing info</a>
+            </footer>
+        </div>
+
+    </body>
+</html>

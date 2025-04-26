@@ -4,24 +4,20 @@ from flask import Flask, render_template, send_file, Response
 app = Flask(__name__)
 
 def renderPage(dir: str):
-    try:    
-        body = render_template(dir)
-    except: 
-        body = None
+    try:    body = render_template(dir)
+    except: body = None
 
-    if body: 
-        return render_template(f"{dir}")
-    else:    
-        return render_template("404.html")
+    if body: return render_template("pattern.html", body=body)
+    else:    return render_template("pattern.html", body=render_template("404.html"))
 
-def get_random_pattern():
+def get_random_quote():
     try:
-        with open("templates/pattern.txt", "r", encoding="utf-8") as f:
+        with open("templates/quotes.txt", "r", encoding="utf-8") as f:
             content = f.read().strip()
-        patterns = content.split("\n%\n")
-        return random.choice(patterns).strip() if patterns else ""
+        quotes = content.split("\n%\n")
+        return random.choice(quotes).strip() if quotes else ""
     except FileNotFoundError:
-        return "# No patterns found :("
+        return "# :("
 
 @app.route("/")
 def index():
@@ -31,6 +27,7 @@ def index():
 def pg(page):
     if page == "sitemap.xml":
         return send_file('templates/sitemap.xml', mimetype='application/xml')
+    
     elif page == "robots.txt":
         try:
             with open("templates/robots.txt", "r", encoding="utf-8") as f:
@@ -38,10 +35,11 @@ def pg(page):
         except FileNotFoundError:
             robots_content = "User-agent: *\nDisallow: /"
 
-        pattern = get_random_pattern()
-        response_text = f"{pattern}\n\n{robots_content}"
+        quote = get_random_quote()
+        response_text = f"{quote}\n\n{robots_content}"
         
         return Response(response_text, mimetype="text/plain")
+    
     else:
         return renderPage(f"pages/{page}.html")
 
