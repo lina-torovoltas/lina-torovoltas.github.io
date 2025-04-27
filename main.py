@@ -8,6 +8,7 @@ def render_page(template_name: str):
         body = render_template(template_name)
     except Exception:
         body = render_template("404.html")
+        return render_template("pattern.html", body=body), 404
     return render_template("pattern.html", body=body)
 
 def get_random_quote():
