@@ -3,74 +3,122 @@
     <head>
         <meta charset="utf-8">
         <title>Lina Torovoltas</title>
-        <link rel="stylesheet" href="static/style.css">
-        <link rel="shortcut icon" href="static/logo.png" />
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="shortcut icon" href="/static/logo.png" />
     </head>
     
     <body>
 
         <nav>
-            <a href="index.html" title="Home page.">home</a>
-            <a href="contacts.html" title="Contact me.">contacts</a>
-            <a href="projects.html" title="Here are all my projects.">projects</a>
-            <a href="donations.html" title="Donate cryptocurrency to help me.">donations</a>
+                <a href="/" title="Home page.">home</a>
+                <a href="/contacts" title="Contact me.">contacts</a>
+                <a href="/projects" title="Here are all my projects.">projects</a>
+                <a href="/donations" title="Donate cryptocurrency to help me.">donations</a>
         </nav>
 
-
-        <div>
+        
+        <main>
+                    <div>
             <h1>Projects</h1>
 
-            <p>Here you will find information about my projects along <br />
-                with a brief description and links for more detailed exploration.</p>
+            <p>Here's what I've been working on,
+                <br />with a quick rundown, and links if you want to take a closer look.</p>
+        </div>
+
+        <div>
+            <h3>FasmMacroLib</h3>
+
+            <p>FasmMacroLib is a cross-platform macro library for FASM 
+                <br />that makes coding in assembly easier across OSes and architectures.</p>
+
+            <p>The code examples in the library can also help 
+                <br />if you're just starting out with assembly btw.</p>
+
+            <p><a href="https://github.com/lina-torovoltas/FasmMacroLib" class="highlight">Link</a> to the repository with documentation and source code.</p>
+        </div>
+
+        <div>
+            <h3>SoryneOS</h3>
+
+            <p>Experimental 16-bit bare-metal playground for FASM macros.
+                <br />But it might grow from a playground into an actual OS someday.</p>
+
+            <p><a href="https://github.com/lina-torovoltas/SoryneOS" class="highlight">Link</a> to the repository with the source code.</p>
+        </div>
+
+        <div>
+            <h3>WebServer</h3>
+
+            <p>Just an experimental web server written in FASM for Linux, 
+                <br />with a simple test site bundled in.</p>
+
+            <p><a href="https://github.com/lina-torovoltas/WebServer" class="highlight">Link</a> to the repository with the source code.</p>
+        </div>
+
+        <div>
+            <h3>VRS-454</h3>
+
+            <p>An internet numbers station inspired by UVB-76.
+                <br />It broadcasts encrypted messages using ternary XOR encryption
+                <br />with one-time pads, built with Python and FastAPI.</p>
+
+            <p><a href="https://github.com/lina-torovoltas/VRS-454" class="highlight">Link</a> to the repository with the source code.</p>
+        </div>
+
+        <div>
+            <h3>Drapixcol</h3>
+
+            <p>Procedural pixel art generation library for Python.
+                <br />Built with PIL, OpenCV and NumPy.</p>
+
+            <p><a href="https://github.com/lina-torovoltas/Drapixcol" class="highlight">Link</a> 
+                to the repository with the source code, also available on 
+                <a href="https://pypi.org/project/drapixcol/" class="highlight">PyPI</a></p>
         </div>
 
         <div>
             <h3>This website</h3>
 
-            <p>Basically, there's not much to say about this website, <br />
-                and you can explore it yourself to see everything I've done :3</p>
+            <p>Built with Python and Flask, not much to explain here,
+                <br />just have a look around and see everything I've done :3</p>
+
             <p><a href="https://github.com/lina-torovoltas/lina-torovoltas.github.io" class="highlight">Link</a> to the repository with the source code.</p>
         </div>
 
         <div>
-            <h3>Macro library for FASM</h3>
-
-            <p>FasmMacroLib is designed to simplify FASM programming on Linux.<br />
-                It supports x86, x86_64, ARM, and ARM64 architectures.</p>
-            <p><a href="https://github.com/lina-torovoltas/FasmMacroLib" class="highlight">Link</a> to the repository with documentation and source code.</p>
-        </div>
-
-        <div>
-            <h3>KGB Bot for Telegram</h3>
+            <h3>0xNULL_Bot for telegram</h3>
             
-            <p>This is <a href="https://github.com/Foxity-Team/KGB_Bot-discord" class="highlight">KGB Bot</a>, but only for Telegram! <br />
-                For now, it has limited functionality,<br />
-                just a profanity filter and a basic pseudo-AI<br />
-                I’ll probably revamp it soon.</p>
-            <p><a href="https://github.com/lina-torovoltas/KGB_Bot-telegram" class="highlight">Link</a> to the repository with documentation and source code.</p>
-        </div>
+            <p>Experimental Telegram bot with a profanity filter and a basic pseudo-AI.
+                <br />Written in Python using the telebot library.</p>
 
-        <div>
-            <h3>Random dump generator</h3>
-
-            <p>It generates random dumps in hexadecimal and octal formats,<br />
-                and honestly, there's not much more to say about it.</p>
-            <p><a href="https://github.com/lina-torovoltas/Random-DumpGen" class="highlight">Link</a> to the repository with the source code.</p>
+            <p><a href="https://github.com/lina-torovoltas/0xNULL_Bot-telegram" class="highlight">Link</a> to the repository with documentation and source code.</p>
         </div>
 
         <div>
             <h3>Repo Backuper</h3>
                 
-            <p>This program backups repositories through a certain time slot <br />
-                from the list and saves them in zip format in the directory</p>
+            <p>Python tool that monitors remote Git repositories
+                <br />on a schedule and automatically backs them up as .zip archives.</p>
+
             <p><a href="https://github.com/lina-torovoltas/Repo_Backuper" class="highlight">Link</a> to the repository with documentation and source code.</p>
         </div>
 
         <div>
+            <h3>Random dump generator</h3>
+
+            <p>Generates random pseudo-dumps in hexadecimal and octal formats.
+                <br />Perfect for testing, mockups, or just looking like a hacker >w<</p>
+
+            <p><a href="https://github.com/lina-torovoltas/Random-DumpGen" class="highlight">Link</a> to the repository with the source code.</p>
+        </div>
+        </main>
+
+
+        <div>
             <footer>
-            Lina Torovoltas (c) | <a href="licensing.html" class="highlight">licensing info</a>
+            Lina Torovoltas (c) | <a href="/licensing" class="highlight">licensing info</a>
             </footer>
         </div>
-    
+
     </body>
 </html>

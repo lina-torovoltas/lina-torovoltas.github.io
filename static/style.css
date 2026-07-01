@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Julia Mono';
     font-weight: normal;
@@ -28,6 +29,13 @@ body {
     font-family: 'Julia Mono', monospace;
     background: radial-gradient(#E74200, #000000) fixed;
     font-size: 1.1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 img {
