@@ -1,0 +1,12 @@
+<h2>404 Error:</h2> <p>Segmentation core (fault dumped)</p>
+<h2>404 Error:</h2> <p>Segmentation fault (core dumped)</p>
+<h2>404 Error:</h2> <p>Illegal instruction</p>
+<h2>404 Error:</h2> <p>No such file or directory</p>
+<h2>404 Error:</h2> <p>Bad file descriptor</p>
+<h2>404 Error:</h2> <p>Triple fault</p>
+<h2>404 Error:</h2> <p>Permission denied</p>
+<h2>404 Error:</h2> <p>Broken pipe</p>
+<h2>404 Error:</h2> <p>General protection fault</p>
+<h2>404 Error:</h2> <p>Bus error (core dumped)</p>
+<h2>404 Error:</h2> <p>Killed: process terminated</p>
+<h2>404 Error:</h2> <p>Floating point exception (core dumped)</p>

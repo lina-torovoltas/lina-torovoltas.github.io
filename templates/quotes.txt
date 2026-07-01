@@ -113,8 +113,81 @@
 
 %
 
+# Enter text: sdfsdfsdf
+# You entered: Segmentation fault (core dumped)
+
+%
+
+# Hmmmm, did you mean "Segmentation fault (core dumped)"?
+
+%
+
+# Segmentation core (fault dumped)
+
+%
+
+# I'm a genius before my time!
+# Disbelieving, that's the real crime.
+
+# - Lemon Demon - Touch-Tone Telephone
+
+%
+
+# UFOlogy, yes, it's all real!
+# Ancient aliens, it's all true!
+
+# - Lemon Demon - Touch-Tone Telephone
+
+%
+
+# Don't hang up yet, I'm not done
+# I'm an expert, I'm the one
+
+# - Lemon Demon - Touch-Tone Telephone
+
+%
+
+# After all, I want to be wanted
+# Is that so wrong?
+
+# Flavor Foley - Static
+
+%
+
+# This is how it should be
+
+# Flavor Foley - Static
+
+%
+
+# What's this?
+# I fear, it's so clear
+# Radio waves hit my ears
+# This can't be...
+# Am I hearing this right?
+
+# Moonlit Star - SIGNALING
+
+%
+
 # QwQ
 
 %
 
-#UwU
+# UwU
+
+%
+
+# ^w^
+
+%
+
+# >w<
+
+%
+
+# =^w^=
+
+%
+
+# :3

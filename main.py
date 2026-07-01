@@ -7,7 +7,8 @@ def render_page(template_name: str):
     try:
         body = render_template(template_name)
     except Exception:
-        body = render_template("404.html")
+        msg = get_random_404()
+        body = render_template("404.html", message=msg)
         return render_template("pattern.html", body=body), 404
     return render_template("pattern.html", body=body)
 
@@ -18,6 +19,14 @@ def get_random_quote():
         return random.choice(quotes).strip() if quotes else ""
     except FileNotFoundError:
         return "# :("
+
+def get_random_404():
+    try:
+        with open("templates/404_messages.txt", "r", encoding="utf-8") as f:
+            messages = [line.strip() for line in f if line.strip()]
+        return random.choice(messages) if messages else "Page not found."
+    except FileNotFoundError:
+        return "Page not found."
 
 @app.route("/")
 def index():
@@ -42,4 +51,4 @@ def pg(page):
     return render_page(f"pages/{page}.html")
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000, debug=False)

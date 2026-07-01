@@ -1,12 +1,10 @@
 User-agent: *
-Disallow: /secret.html
-Disallow: /404.html
+Disallow: /secret
 Allow: /
-Allow: /index.html
-Allow: /contacts.html
-Allow: /projects.html
-Allow: /donations.html
-Allow: /licensing.html
+Allow: /contacts
+Allow: /projects
+Allow: /donations
+Allow: /licensing
 Host: lina-torovoltas.github.io
 
 Sitemap: https://lina-torovoltas.github.io/sitemap.xml
