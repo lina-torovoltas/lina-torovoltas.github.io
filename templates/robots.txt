@@ -5,6 +5,6 @@ Allow: /contacts
 Allow: /projects
 Allow: /donations
 Allow: /licensing
-Host: lina-torovoltas.github.io
+Host: placeholder
 
-Sitemap: https://lina-torovoltas.github.io/sitemap.xml
+Sitemap: https://placeholder/sitemap.xml
