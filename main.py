@@ -1,7 +1,16 @@
 import random
 from flask import Flask, render_template, send_file, Response
 
+
+
+KEY_FILES = {
+    "pgp-pub.asc": {"mimetype": "text/plain", "attachment": False},
+    "age-pq.pub": {"mimetype": "text/plain", "attachment": True},
+    "minisign.pub": {"mimetype": "text/plain", "attachment": True},
+}
+
 app = Flask(__name__)
+
 
 def render_page(template_name: str):
     try:
@@ -36,7 +45,7 @@ def index():
 def pg(page):
     if page == "sitemap.xml":
         return send_file('templates/sitemap.xml', mimetype='application/xml')
-    
+
     if page == "robots.txt":
         try:
             with open("templates/robots.txt", "r", encoding="utf-8") as f:
@@ -47,7 +56,15 @@ def pg(page):
         quote = get_random_quote()
         response_text = f"{quote}\n\n{robots_content}"
         return Response(response_text, mimetype="text/plain")
-    
+
+    if page in KEY_FILES:
+        cfg = KEY_FILES[page]
+        return send_file(
+            f"static/keys/{page}",
+            mimetype=cfg["mimetype"],
+            as_attachment=cfg["attachment"]
+        )
+
     return render_page(f"pages/{page}.html")
 
 if __name__ == '__main__':

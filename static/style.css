@@ -2,7 +2,7 @@
     font-family: 'Julia Mono';
     font-weight: normal;
     font-style: normal;
-    src: url("JuliaMono-Regular.woff2");
+    src: url("fonts/JuliaMono-Regular.woff2");
   }
 
 :root {
@@ -21,7 +21,6 @@ div {
     box-shadow: 0 4px 15px #000000;
 }
 
-
 body {
     margin: 0 auto;
     max-width: 800px;
@@ -29,6 +28,7 @@ body {
     background: radial-gradient(#E74200, #000000) fixed;
     font-size: 1.1rem;
     min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
 }

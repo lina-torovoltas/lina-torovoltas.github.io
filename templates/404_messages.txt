@@ -1,4 +1,6 @@
 <h2>404 Error:</h2> <p>Segmentation core (fault dumped)</p>
+<h2>404 Error:</h2> <p>Core dump (segmentation faulted)</p>
+<h2>404 Error:</h2> <p>Core fault (segmentation dumped)</p>
 <h2>404 Error:</h2> <p>Segmentation fault (core dumped)</p>
 <h2>404 Error:</h2> <p>Illegal instruction</p>
 <h2>404 Error:</h2> <p>No such file or directory</p>
@@ -10,3 +12,22 @@
 <h2>404 Error:</h2> <p>Bus error (core dumped)</p>
 <h2>404 Error:</h2> <p>Killed: process terminated</p>
 <h2>404 Error:</h2> <p>Floating point exception (core dumped)</p>
+<h2>404 Error:</h2> <p>Connection refused</p>
+<h2>404 Error:</h2> <p>Resource temporarily unavailable</p>
+<h2>404 Error:</h2> <p>Too many open files</p>
+<h2>404 Error:</h2> <p>Device or resource busy</p>
+<h2>404 Error:</h2> <p>Stack smashing detected</p>
+<h2>404 Error:</h2> <p>Out of memory</p>
+<h2>404 Error:</h2> <p>Address already in use</p>
+<h2>404 Error:</h2> <p>Operation not permitted</p>
+<h2>404 Error:</h2> <p>Interrupted system call</p>
+<h2>404 Error:</h2> <p>No route to host</p>
+<h2>404 Error:</h2> <p>Argument list too long</p>
+<h2>404 Error:</h2> <p>Kernel panic</p>
+<h2>404 Error:</h2> <p>Unable to mount root fs</p>
+<h2>404 Error:</h2> <p>Invalid opcode</p>
+<h2>404 Error:</h2> <p>Divide error</p>
+<h2>404 Error:</h2> <p>Page fault</p>
+<h2>404 Error:</h2> <p>Double fault</p>
+<h2>404 Error:</h2> <p>Stack overflow</p>
+<h2>404 Error:</h2> <p>Reset vector not found</p>

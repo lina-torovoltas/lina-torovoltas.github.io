@@ -122,10 +122,6 @@
 
 %
 
-# Segmentation core (fault dumped)
-
-%
-
 # I'm a genius before my time!
 # Disbelieving, that's the real crime.
 
